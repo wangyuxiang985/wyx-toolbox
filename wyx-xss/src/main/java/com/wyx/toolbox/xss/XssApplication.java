@@ -11,7 +11,5 @@ public class XssApplication implements CommandLineRunner {
         SpringApplication.run(XssApplication.class, args);
     }
     @Override
-    public void run(String... args) throws Exception {
-        System.out.println("aaaaa");
-    }
+    public void run(String... args) throws Exception {}
 }
