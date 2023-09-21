@@ -1,0 +1,56 @@
+server:
+  port: 8081
+
+PasswordCheck:
+  #是否检测密码口令长度
+  CHECK_PASSWORD_LENGTH: enable
+  #密码最小长度，默认为8
+  MIN_LENGTH: 8
+  #密码最大长度，默认为20
+  MAX_LENGTH: 16
+  #是否包含数字
+  CHECK_CONTAIN_DIGIT: enable
+  #是否包含字母
+  CHECK_CONTAIN_CASE: enable
+  #是否区分大小写
+  CHECK_DISTINGGUISH_CASE: enable
+  #是否包含小写字母
+  CHECK_LOWER_CASE: enable
+  #是否包含大写字母
+  CHECK_UPPER_CASE: enable
+  #是否包含特殊符号
+  CHECK_CONTAIN_SPECIAL_CHAR: enable
+  #是否检测键盘按键横向连续
+  CHECK_HORIZONTAL_KEY_SEQUENTIAL: enable
+  #键盘横向方向规则
+  KEYBOARD_HORIZONTAL_ARR: 01234567890,qwertyuiop,asdfghjkl,zxcvbnm,1@3,2#4,3$5,4%6,5^7,6&8,7*8,8(0
+  #键盘物理位置横向不允许最小的连续个数
+  LIMIT_HORIZONTAL_NUM_KEY: 3
+  #8位内不连续设置
+  LIMIT_HORIZONTAL_NUM_KEY_LENGTH: 16
+  #是否检测键盘按键斜向连续
+  CHECK_SLOPE_KEY_SEQUENTIAL: enable
+  #键盘斜线方向规则
+  KEYBOARD_SLOPE_ARR: 1qaz, 2wsx, 3edc, 4rfv, 5tgb, 6yhn, 7ujm, 8ik,, 9ol.,0p;/, =[;., -pl,, 0okm, 9ijn, 8uhb, 7ygv, 6tfc, 5rdx, 4esz,159,753
+  #键盘物理位置斜向不允许最小的连续个数
+  LIMIT_SLOPE_NUM_KEY: 3
+  #是否检测逻辑位置连续
+  CHECK_LOGIC_SEQUENTIAL: enable
+  #密码口令中字符在逻辑位置上不允许最小的连续个数
+  LIMIT_LOGIC_NUM_CHAR: 2
+  #密码口令中字符在逻辑位置上不允许最小的连续个数（8位内）
+  LIMIT_LOGIC_NUM_CHAR_LENGTH: 16
+  #是否检测连续字符相同
+  CHECK_SEQUENTIAL_CHAR_SAME: enable
+  #密码口令中相同字符不允许最小的连续个数
+  LIMIT_NUM_SAME_CHAR: 2
+  #是否检测常用词库
+  CHECK_SIMPLE_WORD: enable
+  #是否检测形似变换
+  CHECK_SIMILAR_WORD: enable
+  #是否检测已公开的密码
+  CHECK_PASSWORD_EXIST: enable
+  #已公开的密码库
+  PASSWORD_LIBRARY: Yfzx$406
+  #常用词库
+  SIMPLE_WORDS: admin, szim, epicrouter, password, grouter, dare, root, guest,user, success, pussy, mustang, fuckme, jordan, test, hunter, jennifer, batman, thomas,soccer, sexy, killer, george, asshole, fuckyou, summer, hello, secret, fucker, enter,cookie, administrator, xiaoming, taobao, iloveyou, woaini, 982464,monkey, letmein, trustno1, dragon, baseball, master, sunshine, ashley, bailey, shadow,superman, football, michael, qazwsx,741,852,963

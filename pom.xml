@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>wyx-xss</module>
+        <module>wyx-password-check</module>
     </modules>
 
     <packaging>pom</packaging>
