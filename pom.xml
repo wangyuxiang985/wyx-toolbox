@@ -10,6 +10,7 @@
     <modules>
         <module>wyx-xss</module>
         <module>wyx-password-check</module>
+        <module>wyx-datamask</module>
     </modules>
 
     <packaging>pom</packaging>
