@@ -11,6 +11,7 @@
         <module>wyx-xss</module>
         <module>wyx-password-check</module>
         <module>wyx-datamask</module>
+        <module>wyx-mybatis-plus</module>
     </modules>
 
     <packaging>pom</packaging>

@@ -15,3 +15,10 @@ xss预防小工具
 敏感数据脱敏
 
 参考：https://blog.csdn.net/qq_37758497/article/details/132199127
+
+## wyx-mybatis-plus
+mybatis-plus实现多数据源与执行sql前调整sql
+
+环境要求：mybatis-plus 3.5.2+
+
+参考：https://blog.csdn.net/weixin_42182797/article/details/130530899
