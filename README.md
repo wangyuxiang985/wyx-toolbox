@@ -19,6 +19,9 @@ xss预防小工具
 ## wyx-mybatis-plus
 mybatis-plus实现多数据源与执行sql前调整sql
 
-环境要求：mybatis-plus 3.5.2+
+环境要求：mybatis-plus 3.5.2+ \
+说明：\
+com.wyx.toolbox.mybatis: 实现代码执行前添加注释 \
+com.wyx.toolbox.datasource: 利用mybatisPlus实现多数据源
 
 参考：https://blog.csdn.net/weixin_42182797/article/details/130530899
